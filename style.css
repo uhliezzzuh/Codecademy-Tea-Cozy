@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+.nav a {
+    color: seashell;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.mission {
+    background-image: url(/images/backrgound-tea.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.mission-content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1000px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.tea-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-item p {
+    margin-top: 10px;
+}
+
+.locations {
+    height: 500px;
+    background-image: url(/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    width: auto;
+    margin: 0 20px;
+}
+
+.location-item {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    gap: 40px;
+}
+
+.location-item h3 {
+    margin-bottom: 0;
+}
+
+.location-item p {
+    line-height: 3;
+}
+
+.footer {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
